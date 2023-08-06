@@ -7,7 +7,12 @@
   h1 {
     text-align: center;
   }
-  
+
+  h2 {
+    text-align: center;
+    color: white
+  }
+
   .itinerary-section {
     margin-bottom: 10px;
     margin-top: 10px;
