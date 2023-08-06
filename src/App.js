@@ -31,19 +31,23 @@ const App = () => {
   };
 
   const setBackground = (tag, textcolor) => {
+    document.getElementsByTagName('H2')[0].style.visibility = 'visible';
     document.body.style.background = `url('websitefiles/${tag}.png')`;
     document.body.style.backgroundSize = "cover";
     document.body.style.width = "100vw";
     document.body.style.height = "100vh";
     document.getElementsByTagName('H1')[0].style.color = textcolor;
+    document.getElementsByTagName('H2')[0].style.visibility = 'hidden';
   };
 
   function setDefaultBackground() {
+    document.getElementsByTagName('H2')[0].style.visibility = 'visible';
     document.body.style.background = `url('websitefiles/generic.png')`;
     document.body.style.backgroundSize = "cover";
     document.body.style.width = "100vw";
     document.body.style.height = "100vh";
     document.getElementsByTagName('H1')[0].style.color = 'lightyellow';
+    document.getElementsByTagName('H2')[0].style.visibility = 'hidden';
   };
 
   useEffect(() => {
