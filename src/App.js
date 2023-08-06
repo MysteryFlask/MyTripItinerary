@@ -95,6 +95,7 @@ const App = () => {
         </div>
       </div>
       <a className="sectionbtn" onClick={handleAddSection}>Add Section</a>
+      <h2>Loading...</h2>
       <h1>My Trip Itinerary</h1>
       <div className="section-container">
         {itinerary.map((section) => (
