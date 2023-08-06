@@ -1,0 +1,25 @@
+{
+  "short_name": "My Trip",
+  "name": "My Trip Itinerary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "144x144 72x72 36x36 18x18 9x9",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
